@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8548480573296917077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8548480573296917076}
+  - component: {fileID: 8548480573296917079}
+  - component: {fileID: 8548480573296917078}
+  - component: {fileID: 8548480573296917160}
+  - component: {fileID: 8548480573296917161}
+  m_Layer: 0
+  m_Name: Arthur
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8548480573296917076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548480573296917077}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.669, y: 0.929, z: 34.19872}
+  m_LocalScale: {x: 3.5, y: 3.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8548480573296917079
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548480573296917077}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 2072251011
+  m_SortingLayer: 7
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -9010615838638220262, guid: 26f2fab31eacb6948aaee40453cfc60b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.64, y: 0.64}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &8548480573296917078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548480573296917077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0eadeb91f38cd49967f7fa85f7bca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogCamera: {fileID: 0}
+  texts:
+  - Hello travellers! How are you? What are you doing here? Do you like my berry
+    farm? Why are you out in the woods all alone?
+  - Wow, slow down, how about one question at a time?
+  - My name is Klofalaekjarkjaftur ^_^ And who are you?
+  - "The name\u2019s Arthur. Hello little ogress. Your companion asked me to choose
+    one question, so I\u2019ll start with the most important one \u2013 how do you
+    like my berry farm?"
+  - Choice
+  - "It\u2019s lovely! I\u2019ve never seen berries like these before, what are they? "
+  - "Oh! I\u2019m actually not sure. They were just here so I started watering them.
+    I can\u2019t even eat berries, you know, no body and all. And, young fellow,
+    what\u2019s your name?"
+  - "I\u2019m John. I\u2019m not from here."
+  - "Yes, young fellow, I\u2019ve noticed. There\u2019s one man who looks just like
+    you here, but we do not speak of him."
+  - What? Why?
+  - " He\u2019s a nasty person, that\u2019s why. He shouldn\u2019t be here either.
+    Just showed up one day. Some say he has a magic crystal and that\u2019s how he\u2019s
+    here."
+  - Do you know where we can find him?
+  - "Some say he\u2019s further East. But it\u2019s a long, tiring way from here.
+    I would much rather take care of my berries instead. I assume that\u2019s where
+    you two are headed?"
+  - "Yes sir. We\u2019re looking for the Five Great Crystals so Jacob can get home."
+  - My name is John. But yes, we are looking for the Five Great Crystals.
+  - "Let me treat you to some berries then, since you\u2019re both such nice fellows.
+    They smell sweet and I\u2019m told they taste great too. Maybe if you see Janice
+    she can tell you."
+  - Thank you sir! Have a good day! Bye bye!
+  - End
+  - "Ugh, old man, we don\u2019t have time for this."
+  - "That\u2019s not very nice, young fellow. You should know better than to be mean,
+    with a face like that."
+  - Excuse me?
+  - "If you weren\u2019t with her, I\u2019d think you\u2019re the nasty wizard from
+    further East. You look just like him. Young lady, why didn\u2019t you teach this
+    creature any manners?"
+  - "Hey! His name is James, not \u201Cthis creature\u201D."
+  - "Um, it\u2019s actually John."
+  - "Arthur, you\u2019re no one to teach us manners when you speak to him like that."
+  - How about I treat you two to some of my berries? To clear the air?
+  - That seems fair.
+  - "Here you go\u2026 that should teach you some manners."
+  - "Hey, Klofalaekjarkjaftur? I don\u2019t feel so well\u2026"
+  - "If you\u2019re mean to someone don\u2019t expect them to give you something
+    that isn\u2019t poison berries."
+  - Live--
+  - End
+  speakers:
+  - Arthur
+  - John
+  - Klofalaekjarkjaftur
+  - Arthur
+  - 
+  - Klofalaekjarkjaftur
+  - Arthur
+  - John
+  - Arthur
+  - John
+  - Arthur
+  - John
+  - Arthur
+  - Klofalaekjarkjaftur
+  - John
+  - Arthur
+  - Klofalaekjarkjaftur
+  - 
+  - John
+  - Arthur
+  - John
+  - Arthur
+  - Klofalaekjarkjaftur
+  - John
+  - Klofalaekjarkjaftur
+  - Arthur
+  - Klofalaekjarkjaftur
+  - Arthur
+  - John
+  - Arthur
+  - 
+  - 
+  choices:
+  - "It\u2019s lovely! I\u2019ve never seen berries like these before, what are they?"
+  - "Ugh, old man, we don\u2019t have time for this."
+  choicesIdxs: 0500000012000000
+  speakerObject: {fileID: 0}
+  textGameObject: {fileID: 0}
+  responsePick: {fileID: 0}
+  _picks:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!95 &8548480573296917160
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548480573296917077}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5f882f745764bd34c8bf41a6026f8403, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &8548480573296917161
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548480573296917077}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.006377913, y: 0.057401665}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.15782605, y: 0.5251967}
+  m_EdgeRadius: 0
