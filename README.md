@@ -1,5 +1,5 @@
 # Don't Go Alone  
-A platformer video game project created as part of the Game Programming course
+A platformer video game project created as part of the Game Programming course during my engineering degree
 -  
 Klofalaekjarkjaftur is small, green and nothing distinguishes her from the other residents of her village, whom she has known since she was little. Her village is practically the only place Klofalaekjarkjaftur knows — the next village is a several days' journey away and the forest is full of dangers. Her grandfather told her that his grandfather has once met a human in the forest — which him frightened so that he was never the same again. Humans are dangerous and it is because of them that ogres live in small communities deep in the forest. Years ago, human adventurers could travel between worlds to hunt ogres, among other creatures. To ensure the ogres' safety, magical gems that allowed such travels were hidden and ogres now stick to their safe villages. 
 
