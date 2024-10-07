@@ -9,4 +9,4 @@ To help the man to return to his world, Klofalaekjarkjaftur and he must gather f
 
 The main branch contains the project documentation. The game code is located in the unity_app branch. The game was developed using the Unity engine.  
 -  
-The project was completed in collaboration with [A. Kłobus](https://github.com/AgnieszkaKlobus12).  
+This project was completed in collaboration with [A. Kłobus](https://github.com/AgnieszkaKlobus12).  
