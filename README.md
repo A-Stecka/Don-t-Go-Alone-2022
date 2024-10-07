@@ -7,6 +7,6 @@ Klofalaekjarkjaftur has never wanted to leave her village or her family; after a
 
 To help the man to return to his world, Klofalaekjarkjaftur and he must gather five magical gems. The gems are scattered around the forest near the ogre village. The forest is full of dangers, enemies and strangers, but along the way, the unusual main characters also encounter friendly figures who want to help them.
 
-The main branch contains the project documentation. The game code is located in the unity_app branch. The game uses the Unity engine.  
+The main branch contains the project documentation. The game code is located in the unity_app branch. The game was developed using the Unity engine.  
 -  
 The project was completed in collaboration with [A. Kłobus](https://github.com/AgnieszkaKlobus12).  
